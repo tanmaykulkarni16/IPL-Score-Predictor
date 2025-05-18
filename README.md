@@ -1,58 +1,60 @@
+# IPL Score Predictor Using Machine Learning
+
 This is a machine learning-based project built to predict the final score of an IPL (Indian Premier League) innings in T20 cricket matches. The model uses real-time match inputs like venue, batting team, bowling team, striker, and bowler to forecast the projected final score.
 
-📌 Project Highlights
+# 📌 Project Highlights
 
-Achieved an impressive 90% accuracy in predicting scores compared to actual match results.
+1) Achieved an impressive 90% accuracy in predicting scores compared to actual match results.
 
-Trained on a rich dataset containing 76,015 records of IPL match data.
+2) Trained on a rich dataset containing 76,015 records of IPL match data.
 
-Developed a clean, user-friendly front-end interface using HTML, CSS, and Flask with dropdown menus for teams, venues, players, and real-time match inputs.
+3) Developed a clean, user-friendly front-end interface using HTML, CSS, and Flask with dropdown menus for teams, venues, players, and real-time match inputs.
 
-Built and saved Label Encoders for venue, teams, players to handle categorical variables.
+4) Built and saved Label Encoders for venue, teams, players to handle categorical variables.
 
-Deployed a TensorFlow Keras regression model for score prediction.
+5) Deployed a TensorFlow Keras regression model for score prediction.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-Python
+1) Python
 
-TensorFlow / Keras
+2) TensorFlow / Keras
 
-Flask
+3) Flask
 
-HTML, CSS (front-end)
+4) HTML, CSS (front-end)
 
-Pandas, NumPy
+5) Pandas, NumPy
 
-Scikit-learn (Label Encoding)
+6) Scikit-learn (Label Encoding)
 
-Joblib (Model and Encoder serialization)
+7) Joblib (Model and Encoder serialization)
 
-📌 Workflow
+# 📌 Workflow
 
-1️⃣ Data Collection and Preprocessing
+1️) Data Collection and Preprocessing
 
-2️⃣ Feature Engineering (overs, wickets, etc.)
+2️) Feature Engineering (overs, wickets, etc.)
 
-3️⃣ Model Training and Evaluation (TensorFlow Keras model)
+3️) Model Training and Evaluation (TensorFlow Keras model)
 
-4️⃣ Encoders creation for venue, teams, and players
+4️) Encoders creation for venue, teams, and players
 
-5️⃣ Front-end development using HTML & CSS with Flask integration
+5️) Front-end development using HTML & CSS with Flask integration
 
-6️⃣ Model Deployment with interactive form inputs
+6️) Model Deployment with interactive form inputs
 
-📊 Key Features
+# 📊 Key Features
 
-Predicts final score of a T20 innings based on live match stats.
+1) Predicts final score of a T20 innings based on live match stats.
 
-Clean front-end with dropdown menus for seamless input selection.
+2) Clean front-end with dropdown menus for seamless input selection.
 
-Real-time score prediction powered by a trained machine learning model.
+3) Real-time score prediction powered by a trained machine learning model.
 
-Encoders handled via Joblib serialization for consistent input processing.
+4) Encoders handled via Joblib serialization for consistent input processing.
 
-📢 Acknowledgements
+# 📢 Acknowledgements
 
 Data Source: Kaggle
 
