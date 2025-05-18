@@ -1,4 +1,4 @@
-This is a machine learning-based project built to predict the final score of an IPL (Indian Premier League) innings in T20 cricket matches. The model uses real-time match inputs like venue, batting team, bowling team, striker, bowler, current score, overs, wickets, and last 5-over performance to forecast the projected final score.
+This is a machine learning-based project built to predict the final score of an IPL (Indian Premier League) innings in T20 cricket matches. The model uses real-time match inputs like venue, batting team, bowling team, striker, and bowler to forecast the projected final score.
 
 📌 Project Highlights
 
